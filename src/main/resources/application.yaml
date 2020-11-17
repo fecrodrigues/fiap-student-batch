@@ -1,0 +1,11 @@
+
+input:
+  file: in/lista_alunos.txt
+
+spring:
+  datasource:
+    url:
+    username:
+    password:
+  batch:
+    initialize-schema: ALWAYS
